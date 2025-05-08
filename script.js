@@ -75,13 +75,7 @@ const questions = [
   { q: " اشرح : أولوا الألباب", r:  "TASNIME" },
   { q: " اشرح : ما كان حديثا يفتري", r:  "TASNIME" },
   ];
-  let numcard=0
-  function prescard(num) {
-    const question = questions[num];
-    document.querySelector(".num_question").textContent =`السؤال ${num + 1}`;
-    document.querySelector(".text_q").textContent = question.q;
-    document.querySelector(".text_r").textContent = question.r;
-  }
+
 
 
   
